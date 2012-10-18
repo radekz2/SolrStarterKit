@@ -1,0 +1,326 @@
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discourse concerning the action of the sun and moon on animal bodies; and the influence which this may have in many diseases. By Richard Mead, M.D. ... In two parts</title>
+            <title>De imperio solis ac lunæ in corpora humana. English</title>
+            <author>Mead, Richard, 1673-1754.</author>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Oxford Text Archive</name>
+               <address>
+                  <addrLine>Oxford University Computing Services</addrLine>
+                  <addrLine>13 Banbury Road</addrLine>
+                  <addrLine>Oxford</addrLine>
+                  <addrLine>OX2 6NN</addrLine>
+               </address>
+               <email>ota@oucs.ox.ac.uk</email>
+            </distributor>
+            <idno type="ota">http://ota.ox.ac.uk/id/5611</idno>
+            <idno type="TCP">K049575.000</idno>
+            <idno type="BIBNO">CW3308680607</idno>
+            <idno type="ECMS">0682502100</idno>
+            <idno type="isbn10">1106026101</idno>
+            <idno type="isbn13">9781106026101</idno>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+	  Distributed by the University of Oxford under a Creative Commons
+	  Attribution-ShareAlike 3.0 Unported License
+	</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discourse concerning the action of the sun and moon on animal bodies; and the influence which this may have in many diseases. By Richard Mead, M.D. ... In two parts</title>
+                  <title>De imperio solis ac lunæ in corpora humana. English</title>
+                  <author>Mead, Richard, 1673-1754.</author>
+               </titleStmt>
+               <extent>32p. ; 8⁰.</extent>
+               <publicationStmt>
+                  <pubPlace>London :</pubPlace>
+                  <publisher>printed in the year,</publisher>
+                  <date>1708.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>English Short Title Catalog, ESTCT55649.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2p5.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl n="4">
+            <p>This electronic text file was keyed from page images and partially proofread for accuracy. Character capture and encoding have been done following the guidelines of the ECCO Text Creation Partnership, which correspond roughly to the recommendations found in Level 4 of the TEI in Libraries Guidelines. Digital page images are linked to the text file.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="titlepage">
+            <pb facs="1" rend="none"/>
+            <p>A DISCOURSE Concerning the ACTION OF THE SUN and MOON ON <hi>Animal Bodies;</hi> AND The INFLUENCE which this may have in many Diseases.</p>
+            <p>By <hi>RICHARD MEAD,</hi> M. D. F. R. S.</p>
+            <p>In TWO PARTS.</p>
+            <p>
+               <hi>LONDON:</hi> Printed in the Year 1708.</p>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="part">
+            <pb n="3" facs="2" rend="none"/>
+            <head>A DISCOURSE Concerning the ACTION of the SUN and MOON on <hi>Animal Bodies.</hi>
+            </head>
+            <head type="sub">PART I.</head>
+            <p>THAT some Diseases are properly the Effects of the Influence of the heavenly Bodies, and that others do vary their Periods and Symptoms according to the different Positions of one or other of those luminous Globes, is a very antient and certain Observation. Upon this Score <hi>Hippocrates</hi>
+               <note place="bottom" n="(a)">Epist. ad Thessalum Filium.</note> advises his Son <hi>Thessalus</hi> to the Study of Geometry and Numbers, because <hi>the Knowledge of the Stars is of very great Use in Physick</hi>
+               <note place="bottom" n="(b)">
+                  <gap rend="content:〈 in non-Latin alphabet 〉">
+                     <desc>foreign</desc>
+                  </gap>. De Aere Aquis &amp; Locis.</note>. And the earliest Histories of Epidemick Distem<lb rend="hidden" type="hyphenInWord"/>pers, particularly do all turn upon the Alterations made in our Bodies by the Heavens.</p>
+            <p>But when in later Times Medicine came to be accommodated to the Reasonings of Philosophers;
+<pb n="4" facs="3" rend="none"/>no body being able to account for the Manner of this celestial Action, it was allowed no far<lb rend="hidden" type="hyphenInWord"/>ther Share in affecting our Health, than what might be imputed to the Changes in the manifest Constitution of the Air, excepting perhaps some<lb rend="hidden" type="hyphenInWord"/>thing of Truth which still remains disguised and blended with the Jargon of judiciary Astrology.</p>
+            <p>In order therefore to set this Matter in a little clearer Light, I shall in the first Place shew, That the Sun and Moon regarding their Near<lb rend="hidden" type="hyphenInWord"/>ness and Direction to the Earth only, besides the Effects of Heat, Moisture, <hi>&amp;c.</hi> thereby caused in our Atmosphere, must at certain Times make some Alterations in all Animal Bodies; then enumerate some Histories and Observations of such Changes, and enquire of what Use such Thoughts as these may be in the Practice of Physick.</p>
+            <p>It is a constant Observation of those who write the History of the <hi>Winds,</hi> That the most windy Seasons of the Year, are the Time about the Vernal and Autumnal Equinox; for be the Air never so calm before or after, we never fail of having Winds at that Juncture. Every body likewise knows, that in the most quiet Weather we are sure of some Breeze at Mid-day and Mid<lb rend="hidden" type="hyphenInWord"/>night, as also at full Sea, <hi>i. e.</hi> always about the Time the Sun or Moon arrive at the Meridian. Seamen and Country People reckon upon this, and order their Affairs accordingly. And the Changes of the Weather as to Winds or Calms especially about the new and full Moon, are too well known to require any Authority to confirm such Remarks. Those who desire a fuller Ac<lb rend="hidden" type="hyphenInWord"/>count of these Observations, may see it in <hi>De Chales</hi>'s Navigation, <hi>Gassendus</hi>'s Natural Philoso<lb rend="hidden" type="hyphenInWord"/>phy, and <hi>J. Goad,</hi> his <hi>Astro-Meteoro-Logica.</hi>
+            </p>
+            <pb n="5" facs="4" rend="none"/>
+            <p>These Things being Matters of Fact, and in a Manner regular and universal, it may very well seem strange that Philosophers have not been more accurate in their Enquiries into the Reason of such Appearances. True indeed it is, that the Origin of Winds is various and uncertain, but however, so constant and uniform an Effect must undoubtedly be owing to one necessary Cause.</p>
+            <p>It has been, now a considerable Time since, sufficiently made out, that our Atmosphere is a thin elastic Fluid, one Part of which gravitates upon another, and whose Pressure is communi<lb rend="hidden" type="hyphenInWord"/>cated every Way in a Sphere to any given Part thereof. From hence it follows, That if by any external Cause the Gravity of any one Part shou'd be taken off or diminished, that from all sides a<lb rend="hidden" type="hyphenInWord"/>round this Part, the more heavy Air would rush in to restore the Equilibrium which must of ne<lb rend="hidden" type="hyphenInWord"/>cessity be preserved in all Fluids. Now this vio<lb rend="hidden" type="hyphenInWord"/>lent running in of the heavier Air would certain<lb rend="hidden" type="hyphenInWord"/>ly produce a Wind, which is no more than a strong Motion of the Air in some determined Di<lb rend="hidden" type="hyphenInWord"/>rection. If therefore we can find any outward Cause that would at these stated Seasons we have mentioned, diminish the Weight or Pressure of the Atmosphere; we shall have the genuine Reason of these periodical Winds, and the necessary Con<lb rend="hidden" type="hyphenInWord"/>sequences thereof.</p>
+            <p>The Flux and Reflux of the Sea was a Phoe<lb rend="hidden" type="hyphenInWord"/>nomenon too visible, and too much conducing to the Subsistance of Mankind, and all other Animals, to be neglected by those who applied themselves to the Study of Nature; however all their Attempts to explain this admirable Con<lb rend="hidden" type="hyphenInWord"/>trivance of infinite Wisdom were unsuccessful, till Sir <hi>Isaac Newton</hi> reveal'd to the World juster Principles, and by a truer Philosophy than was
+<pb n="6" facs="5" rend="none"/>formerly known, shew'd us how by the united or divided Forces of the Sun and Moon, which are encreased and lessened by several Circumstances, all the Varieties of the Tides are to be accounted for. And since all the Changes we have enume<lb rend="hidden" type="hyphenInWord"/>rated in the Atmosphere do fall out at the same Times when those happen in the Ocean; and likewise whereas both the Waters of the Sea and the Air of our Earth, are Fluids subject, in a great Measure, to the same Laws of Motion; it is plain, that the Rule of our great Philosopher takes place here, <hi>viz. That natural Effects of the same kind are owing to the same Causes</hi>
+               <note place="bottom" n="(a)">Newton. <hi>Princip. p.</hi> 402.</note>.</p>
+            <p>What Difference that known Property of the Air, which is not in Water, makes in the Case, I shall shew anon; setting aside the Considera<lb rend="hidden" type="hyphenInWord"/>tion of that for the present; It is certain, That as the Sea is, so must our Air, twice every 25 Hours, be raised upwards to a considerable Height, by the Attraction of the Moon coming to the Meridian; so that instead of a <hi>Spherical,</hi> it must form itself into a <hi>Spheroidal,</hi> or <hi>Oval</hi> Figure, whose longest Diameter being produced, would pass thro' the Moon. That the like raising must form itself into a <hi>Spheroidal,</hi> or <hi>Oval</hi> Figure, whose longest Diameter being produced, would pass thro' the Moon. That the like raising must follow as often as the Sun is in the Meridian of any Place, either above or below the Horizon. Moreover, That this Elevation is <hi>greatest</hi> upon the new and full Moons, because both Sun and Moon do then conspire in their Attraction; <hi>least</hi> on the Quarters, in that they then drawing dif<lb rend="hidden" type="hyphenInWord"/>ferent Ways, 'tis only the Difference of their Actions produces the Effect. Lastly, That this Intumescence will be of a <hi>middle Degree,</hi> at the Time between the Quarters, and new and full Moon.</p>
+            <pb n="7" facs="6" rend="none"/>
+            <p>From the same Principles, the Motion up<lb rend="hidden" type="hyphenInWord"/>wards of the Air will be strongest of all about the Equinoxes; the Equinoctial Line being over that Circle of the Globe, which has the greatest Diameter, either of the Luminaries when in that are nearer, and the Agitation of the Fluid Sphe<lb rend="hidden" type="hyphenInWord"/>roid revolving about a greater Circle, is greater; besides, the centrifugal Force (arising from the diurnal Rotation) is there greatest of all. This will still be more considerable about the new and full Moons happening at these Times, for the Reasons just now mentioned. And the least Attraction will be about the Quadratures of these Lunar Months, because the Declination of the Moon from the Equator is then greatest. The different Distances of the Moon in her Perigaeum and Apogaeum, are the Reason that these full Changes fall out a little before the Vernal, and after the Autumnal Equinox. Now the Inverse of all this happens when the Luminaries are in the Solstitial Circles. Lastly, In the same Pa<lb rend="hidden" type="hyphenInWord"/>rallel, when the Moon's Declination is towards the elevated Pole, the Attraction is strongest when the Moon is in that Place's Meridian, and weakest when she is in the opposite Place's Meridian: The contrary happens in the opposite Parallel; by reason of the spheroidal Figure of the Earth and its Atmosphere.</p>
+            <p>Whatever has been said on this Head, is no more than applying what Sir <hi>Isaac Newton</hi> has de<lb rend="hidden" type="hyphenInWord"/>monstrated of the Sea to our Atmosphere; and it is needless to shew how necessarily those Appear<lb rend="hidden" type="hyphenInWord"/>ances, just now mentioned of <hi>Winds,</hi> at the stated Times, <hi>&amp;c.</hi> must happen hereupon. It will be of more use to consider the Proportion of the Forces of the two Luminaries upon the <hi>Air,</hi> to that which they have upon the Water of our
+<pb n="8" facs="7" rend="none"/>Globe; that it may the more plainly appear what Influence the Alterations hereby made, must have upon the Animal Body.</p>
+            <p>Sir <hi>Isaac Newton</hi> has demonstrated,
+<note place="bottom" n="(a)">
+                  <hi>Princip. Lib.</hi> 3. <hi>Prop.</hi> 36.</note> That the Force of the Sun to move the Sea, is to the Force of Gravity, as 1 to 12868200. Let that be
+<gap rend="content:〈 math 〉">
+                  <desc>math</desc>
+               </gap> And that the Force of the Moon to raise the Sea is to Gravity, as 1 to 2031821. Let this be
+<gap rend="content:〈 math 〉">
+                  <desc>math</desc>
+               </gap>
+            </p>
+            <p>And since the centrifugal Force of the Parts of the Earth arising from its diurnal Motion is to Gravity, as 1 to 291. Let this be <gap rend="content:〈 math 〉">
+                  <desc>math</desc>
+               </gap>
+            </p>
+            <p>The same Philosopher has taught us
+<note place="bottom" n="(b)">
+                  <hi>Ibid. Lib.</hi> 3. <hi>Prop.</hi> 37.</note> that the centrifugal Force raises the Water at the Equator above the Water at the Poles, to the Height of 85200 Feet. Wherefore if that Force which is as 6031, raises the Ocean to 85200 Feet, the united Forces of the Sun and Moon, which are as 1. will raise the same to 14 Feet, for 85200{divisor}6031 = 14. <hi>Proxime.</hi>
+            </p>
+            <pb n="9" facs="8" rend="none"/>
+            <p>Now we know that the more easily the Wa<lb rend="hidden" type="hyphenInWord"/>ter can obey the Attraction, with the more Force are the Tides moved; but since, as Mr. <hi>Halley</hi> has determin'd it,
+<note place="bottom" n="(a)">
+                  <hi>Philos. Trans.</hi> No. 181.</note> our Atmosphere is extended to 45 Miles, whereas the middle Depth of the Ocean is but about half a Mile; it is plain, that the Air revolving in a Sphere about 100 Times larger than that of the Ocean, will have a pro<lb rend="hidden" type="hyphenInWord"/>portionably greater Agitation.</p>
+            <p>Besides; Rocks, Shelves, and the Inequality of Shoars are a great Stop to the Access and Recess of the Sea: But nothing repels the rising Air, whic his also of such Thinness and Fluidity, that it is easily driven, and runs every Way.</p>
+            <p>Nor ought we to omit, that it is the univer<lb rend="hidden" type="hyphenInWord"/>sal Law of Bodies attracted, that the Force of Attraction is reciprocally as the Squares of their Distances; so that the Action of the Sun and Moon will be greater upon the Air than upon the Water, upon the Account of its Near<lb rend="hidden" type="hyphenInWord"/>ness.</p>
+            <p>But the Consideration of the Elasticity is still of greater Moment here, of which this is the Nature, that it is reciprocally as the Pressure, so that the incumbent Weight being diminished by the Attraction, the Air underneath will upon this Score be mightily expanded.</p>
+            <p>These and such like Causes will make the Tides in the Air to be much greater than those of the Ocean; nor is it necessary to our purpose to de<lb rend="hidden" type="hyphenInWord"/>termine, by nice Calculations, their particular Forces; it is sufficient to have proved that these Motions must both be universal, and also return at certain Intervals.</p>
+            <pb n="10" facs="9" rend="none"/>
+            <p>Now since the raising of the Water of the Ocean 14 Feet, produces Torrents of such a pro<lb rend="hidden" type="hyphenInWord"/>digious Force, we may easily conceive what Tempests of Winds (if not otherwise check'd) the Elevation of the Air much higher (perhaps above a Mile) will necessarily cause. And there is no doubt to be made, but that the same infi<lb rend="hidden" type="hyphenInWord"/>nitely wise Being who contrived the Flux and Reflux of the Sea, to secure that vast Collection of Waters from Stagnation and Corruption (which would inevitably destroy all the Animals and Ve<lb rend="hidden" type="hyphenInWord"/>getables on this Globe) has ordered this Ebb and Flood of the Air of our Atmosphere, with the like good Design, that is to preserve (in Case all other Causes should fail, as they may, and at Times do in some Countries) the sweet Freshness, and brisk Temper of this Fluid, so necessary to Life, and keep it, by a kind of continual Circulation, from Deadness and Stinking.</p>
+            <p>This Reasoning is liable to only one Objection that I know of, and that is this: That the Ap<lb rend="hidden" type="hyphenInWord"/>pearances we have mentioned cannot be owing to the Causes now assigned; since by Calcula<lb rend="hidden" type="hyphenInWord"/>tion from them, the Mercury must at new and full Moon subside in the Barometer to a certain Degree, which yet we do not observe to happen.</p>
+            <p>In answer to which, (besides that there have been some Observations made of the sinking of the Mercury at those Times; and it may perhaps be the Fault of the Observers that these have not been reduced to any Rule) we are to consider, That altho' Winds and Alterations in the Pressure of the Atmosphere, are the necessary Consequents of the lunar Attraction, and true Causes of the diffe<lb rend="hidden" type="hyphenInWord"/>rent Rise of the Mercury in the Barometer; yet these may be produced many other ways too, and therefore tho' regularly the Mercury would always
+<pb n="11" facs="10" rend="none"/>fall at the new and full Moon, those other Causes may be strong enough, even to raise it at those Seasons; in as much as two contrary Winds, for Instance, blowing towards the Place of Observa<lb rend="hidden" type="hyphenInWord"/>tion, may accumulate the Air there, so as to in<lb rend="hidden" type="hyphenInWord"/>crease both the Height and Weight of the incum<lb rend="hidden" type="hyphenInWord"/>bent Cylinder; in like Manner, the Direction of two Winds may be such, as meeting at a certain Angle they may keep the Gravity of the Air in the middle Place unalter'd; and a Thousand such Varieties there may be, by which the Regularity of Appearances of this Nature may be hinder'd. Now the other Springs, from which such Changes in the Air may arise, are these;</p>
+            <p n="1">1. Elastic Vapours forc'd from the Bowels of the Earth, by subterraneous Heats, and condensed by whatever Cause in the Atmosphere.</p>
+            <p n="2">2. A Mixture of Effluvia of different Qualities in the Air, may by Rarefactions, Fermentations, <hi>&amp;c.</hi> produce Winds and other Effects like those resulting from the Combination of some Chymical Liquors; and that such Things happen, we are assur'd from the Nature of Thunder, Lightning, and Meteors.</p>
+            <p n="3">3. From the Eruptions of Vulcanoes and Earth<lb rend="hidden" type="hyphenInWord"/>quakes in distant Places, Winds may be propa<lb rend="hidden" type="hyphenInWord"/>gated to remoter Countries.</p>
+            <p n="4">4. The divided or united Forces of the other Planets and of Comets, may variously disturb the Influence of the Sun and Moon, <hi>&amp;c.</hi> We know that there happen violent Tempests in the upper Regions of the Air, while we below enjoy a Calm; and how many Ridges of Mountains there are on our Globe, which interrupt and check the Propa<lb rend="hidden" type="hyphenInWord"/>gation of the Winds; so that it is no wonder that the Phaenomena we have ascribed to the Action of
+<pb n="12" facs="11" rend="none"/>the Sun and Moon, are not always constant and uniform, and that every Effect does not hereupon follow; which, were there no other Powers in Nature able to alter the Influence of this, might in a very regular and uniform Manner be expected from it.</p>
+            <p>These Things being premised, it will not be difficult to shew (as was proposed in the first Place) that these Changes in our Atmosphere at high Water, new and full Moon, the Equinoxes, <hi>&amp;c.</hi> must occasion some Alterations in all Animal Bo<lb rend="hidden" type="hyphenInWord"/>dies; and that from the following Considerations.</p>
+            <p n="1">1. All living Creatures require Air of a deter<lb rend="hidden" type="hyphenInWord"/>min'd Gravity to perform Respiration easily, and with Advantage; for it is by its Weight that this Fluid insinuates itself into the Cavity of the Breast and Lungs. Now the Gravity, as we have prov'd, being lessen'd at these Seasons, a smaller Quantity only will insinuate itself, and this must be of smaller Force to comminute the Blood, and forward its Passage into the left Ventricle of the Heart, whence a slower Circulation insues, and the Secretion of the Spirits is diminished.</p>
+            <p n="2">2. This Effect will be the more sure, in that the Elasticity of the Atmosphere is likewise diminish'd. Animals want Air as heavy so elastic to a certain Degree; for as this is by its Weight forced into the Cavity of the <hi>Thorax</hi> in Inspiration, so the Muscles of the <hi>Abdomen</hi> press it into the <hi>Bronchi</hi> in Expiration, where the bending Force being some<lb rend="hidden" type="hyphenInWord"/>what taken off, and springy Bodies when unbended, exerting their Power every Way, in Proportion to their Pressures, the Parts of the Air push against all the Sides of the <hi>Vesiculae,</hi> and promote the Pas<lb rend="hidden" type="hyphenInWord"/>sage of the Blood.</p>
+            <pb n="13" facs="12" rend="none"/>
+            <p>We have a convincing Instance of all this, in those who go to the Top of high Mountains, for the Air is there so pure (as they call it) that is, wants so much of its Gravity and Elasticity, that they breathe with very great Difficulty.</p>
+            <p n="3">3. All the Fluids in Animals have in them a Mixture of elastic <hi>Aura,</hi> which when set at Liber<lb rend="hidden" type="hyphenInWord"/>ty, shews its Energy, and causes those Fermenta<lb rend="hidden" type="hyphenInWord"/>tions we observe in the Blood and Spirits: Now when the Pressure of the Atmosphere, upon the Surface of our Body is diminish'd, the inward Air in the Vessels must necessarily be inabled to exert its Force, in Proportion to the lessening the Gra<lb rend="hidden" type="hyphenInWord"/>vity and Elasticity of the outward; hereupon the Juices begin to ferment, change the Union and Cohaesion of their Parts, break their Canals, <hi>&amp;c.</hi>
+            </p>
+            <p>This is very plain in living Creatures put into the Receiver, exhausted by the Air-Pump, which always swell as the Air is more and more drawn out; their Lungs at the same Time contracting themselves, and falling so together as to be hardly discernible
+<note place="bottom" n="(a)">
+                  <hi>Esperienze dell' Academia del Cimento,</hi> p. m. 113.</note>.</p>
+            <p>E're we proceed to Matters of Fact, it may be worth the while to take Notice, that Effects depending on such Causes as these, must of Ne<lb rend="hidden" type="hyphenInWord"/>cessity be most visible in weak Bodies and mor<lb rend="hidden" type="hyphenInWord"/>bid Constitutions, when other Circumstances con<lb rend="hidden" type="hyphenInWord"/>cur to their taking Place. For this Reason, what<lb rend="hidden" type="hyphenInWord"/>ever Mischiefs do hence follow, cannot in the least disparage the wise Contrivance of infinite Power in ordering these Tides of our Atmosphere. The Author of Nature, we know, has made <gap extent="1 word" rend="content:〈◊〉">
+                  <desc>illegible</desc>
+               </gap> Things to the greatest Advantage that could be, for the whole System of Animals on our Globe,
+<pb n="14" facs="13" rend="none"/>but it was impossible that such a Disposition should not in some Cases be prejudicial to a few. The Position and Distance of the Sun are so adjusted, as to give in the most beneficial Manner possible, Heat and Light to the Earth; yet this notwith<lb rend="hidden" type="hyphenInWord"/>standing, some Places may be too hot for some weakly Bodies; some Autumns too sultry to agree with some Animals, and some Winters too cold to be endured by some tender Creatures: The whole however we must own, is most carefully provided for. Besides, as most of these last men<lb rend="hidden" type="hyphenInWord"/>tioned Inconveniences are by easy Shifts to be a<lb rend="hidden" type="hyphenInWord"/>voided; so there are such powerful Checks put to this aerial Flux and Reflux, so many ways of abating the Damages accruing from it now and then; that these are of no Account in compa<lb rend="hidden" type="hyphenInWord"/>rison of the mighty Benefits hence arising, in which the Race of Mankind does universally share.</p>
+         </div>
+         <div n="2" type="part">
+            <pb n="15" facs="14" rend="none"/>
+            <head>A DISCOURSE Concerning the ACTION of the SUN and MOON on <hi>Animal Bodies.</hi>
+            </head>
+            <head type="sub">PART II.</head>
+            <p>THERE are no Histories in Physick which we may more safely take upon the Credit of the Authors who relate 'em, than such as we are now going to mention. In some Cases a Point may perhaps be strained to serve a darling Hypothesis which the Writer has taken up, but here we are much more likely to have pure Mat<lb rend="hidden" type="hyphenInWord"/>ter of Fact, because hitherto no one has pretended the Appearances of this Kind to be within the Reach of any Scheme of Philosophy.</p>
+            <p>Epileptical Diseases, besides the other Difficul<lb rend="hidden" type="hyphenInWord"/>ties with which they are attended, have this also surprizing, that in some the Fits do constantly return every New and Full Moon; <hi>the Moon</hi> (says <hi>Galen
+<note place="bottom" n="(a)">
+                     <gap rend="content:〈 in non-Latin alphabet 〉">
+                        <desc>foreign</desc>
+                     </gap>. <hi>De Dich. Critic. lib.</hi> 2.</note> governs the Periods of Epileptick Cases.</hi> Upon this Score, They who were thus
+<pb n="16" facs="15" rend="none"/>affected were called <gap rend="content:〈 in non-Latin alphabet 〉">
+                  <desc>foreign</desc>
+               </gap>
+               <note place="bottom" n="(b)">
+                  <hi>Alexand. Trallian.</hi> lib. 1. c. 15.</note> and in the Histories of the Gospel <gap rend="content:〈 in non-Latin alphabet 〉">
+                  <desc>foreign</desc>
+               </gap>
+               <note place="bottom" n="(c)">Matth. <hi>c.</hi> xvii. <hi>v</hi> 13.</note> by some of the <hi>Latins</hi> afterwards, <hi>Lunatici
+<note place="bottom" n="(d)">
+                     <hi>Apuleius de Virtutib. Herbar.</hi> cap. 6. <hi>&amp;</hi> 95.</note>. Bartholin</hi>
+               <note place="bottom" n="(e)">
+                  <hi>Anatem. Centur.</hi> 2. H. 72.</note> tells a Story of one Epileptick who had appa<lb rend="hidden" type="hyphenInWord"/>rent Spots in her Face, which according to the Time of the Moon, varied both their Colour and Magnitude.</p>
+            <p>But no greater Consent in such Cases was per<lb rend="hidden" type="hyphenInWord"/>haps ever observed than what I saw some Time since in a Child about five Years old, in which the Convulsions were so strong and frequent, that Life was almost despair'd of, and by Evacua<lb rend="hidden" type="hyphenInWord"/>tions and other Medicines very difficulty saved. The Girl, who was of a lusty full Habit of Body, continued well for a few Days, but was at Full Moon again seized with a most violent Fit, after which, the Disease kept its Periods constant and regular with the Tides; She lay al<lb rend="hidden" type="hyphenInWord"/>ways Speechless during the whole Time of Flood, and recovered upon the Ebb. The Father who lives by the <hi>Thames</hi> Side, and does Business up<lb rend="hidden" type="hyphenInWord"/>on the River, observed these Returns to be so punctual, that not only coming Home, he knew how the Child was before he saw it, but in the Night has risen to his Employ, being warned by Cries when coming out of her Fit, of the turn<lb rend="hidden" type="hyphenInWord"/>ing of the Water. This continued 14 Days, that is, to the next great Change of the Moon, and then a dry Scab on the Crown of the Head, (the Effect of an Epispastick Plaister, with which I had covered the whole <hi>Occiput</hi> in the Beginning of the Illness) broke, and from the Sore, tho' there had been no sensible
+<pb n="17" facs="16" rend="none"/>Discharge this Way for above a Fortnight, ran a considerable Quantity of limpid Serum; upon which, the Fits returning no more, I took great Care to promote this new Evacua<lb rend="hidden" type="hyphenInWord"/>tion by proper Applications, with desired Suc<lb rend="hidden" type="hyphenInWord"/>cess, for some Time; and when it ceased, be<lb rend="hidden" type="hyphenInWord"/>sides two or three Purges with <hi>Mercurius Dulcis,</hi> &amp;c. ordered an Issue in the Neck, which being thought troublesome, was made in the Arm; the Patient however has never since felt any Attacks of those frightful Symp<lb rend="hidden" type="hyphenInWord"/>toms.</p>
+            <p>Whether or no it be thro' Want of due Heed and Enquiry that we have not in all the Collections of Histories and Cases, any Instance of the like Nature so particular as this is, I know not; this is certain, that as the <hi>Vertigo</hi> is a Disease nearly related to the <hi>Epilepsy,</hi> and the <hi>Hysterical Symptoms</hi> do par<lb rend="hidden" type="hyphenInWord"/>take of the same Nature; so both one and the other are frequently observed to obey the Lunar Influence. In like Manner, the raving Fits of mad People, which keep Lunar Pe<lb rend="hidden" type="hyphenInWord"/>riods, are generally in some Degree Epileptic too.</p>
+            <p>
+               <hi>Tulpius</hi>
+               <note place="bottom" n="(a)">
+                  <hi>Observ. Med.</hi> lib. 1. cap. 12.</note> and <hi>Piso</hi>
+               <note place="bottom" n="(b)">
+                  <hi>De Morb. à serosâ Colluvie,</hi> Obs. 28.</note> afford us remark<lb rend="hidden" type="hyphenInWord"/>able Instances of Periodical <hi>Palseys.</hi>
+            </p>
+            <p>Every one knows how great a Share the Moon has in forwarding those Evacuations of the weaker Sex, which have their Name from the constant Regularity they keep in their Returns; and there is no Question to be made, but the Correspondency we here observe, would be greater still, and even Universal, did not
+<pb n="18" facs="17" rend="none"/>many Accidents, and the infinite Varieties in particular Constitutions one Way or other con<lb rend="hidden" type="hyphenInWord"/>cur to make a Difference. It is very observa<lb rend="hidden" type="hyphenInWord"/>ble, that in Countries nearest to the <hi>Aequator,</hi> where we have proved the Lunar Action to be strongest, these Monthly Secretions are in much greater Quantity than in those near the Poles, where this Force is weakest. This <hi>Hip<lb rend="hidden" type="hyphenInWord"/>pocrates</hi>
+               <note place="bottom" n="(a)">De Aere Aquis &amp; Locis.</note> takes Notice of, and gives it as one Reason why the Women in <hi>Scythia</hi> are not very fruitful.</p>
+            <p>The Case being thus with Females, it is no wonder if we sometimes meet with Periodical Haemorrhages answering to the Times of the Moon in Males also. For as a greater Quan<lb rend="hidden" type="hyphenInWord"/>tity of Blood in Proportion to the Bulk in <hi>one</hi> Sex, is the Reason of its discharging it<lb rend="hidden" type="hyphenInWord"/>self thro' proper Ducts, at certain Intervals, when the Pressure of the external Air being diminish'd, the internal <hi>Aura</hi> can exert its Elasticity; so in the <hi>other,</hi> if at any Time there happens to be a Superabundancy of the same Fluid, together with a weak Tone of the Fibres; it is plain that the Vessels will be most easily burst, when the Resistance of the Atmosphere is least. And this more espe<lb rend="hidden" type="hyphenInWord"/>cially, if any accidental Hurt, or rarefying Force has first given Occasion to the other Causes to take Effect.</p>
+            <p>I know a Gentleman of a tender Frame of Body, who having once, by over-reaching, strained the Parts about the Breast; fell there<lb rend="hidden" type="hyphenInWord"/>upon into a Spitting of Blood, which for a Year and half constantly return'd every New Moon, and decreasing gradually, continued al<lb rend="hidden" type="hyphenInWord"/>ways
+<pb n="19" facs="18" rend="none"/>four or five Days. The Fits being more or less considerable, according as his Management about that Time, contributed to a greater or lesser Fullness of the Vessels.</p>
+            <p>We have two notable Instances of the like Nature in our Philosophical Transactions; the one
+<note place="bottom" n="(a)">No. 272.</note> of a Person, who from his Infancy to the 24th Year of his Age, had every full Moon an Eruption of Blood on the right Side of the Nail of his left Thumb, at first to three or four Ounces, and after his sixteenth Year, to half a Pound each Time; which when by searing the Part with a hot Iron, it stop<lb rend="hidden" type="hyphenInWord"/>ped, he fell into a <hi>Sputum Sanguinis,</hi> and by frequent Bleeding, <hi>&amp;c.</hi> was very difficultly saved from a Consumption. The other
+<note place="bottom" n="(b)">
+                  <hi>Philes. Trans.</hi> No. 171.</note> is a Story of an <hi>Inn-Keeper</hi> in <hi>Ireland,</hi> who from the 43d Year of his Life, to the 55th (in which it killed him) suffered a Periodical Eva<lb rend="hidden" type="hyphenInWord"/>cuation at the Point of the Fore-Finger of his Right-hand; and altho' the Fits here kept not their Returns so certain as in the fore-men<lb rend="hidden" type="hyphenInWord"/>tioned Case, (it may be either from the irre<lb rend="hidden" type="hyphenInWord"/>gular Way of living of the Patient, or the mighty Change every Effusion made in his Habit of Body, the Quantity seldom amount<lb rend="hidden" type="hyphenInWord"/>ing to less than four Pounds at a Time) yet there is this remarkable Circumstance in the Relation, that the first Beginning of this <hi>Hae<lb rend="hidden" type="hyphenInWord"/>morrhage</hi> was at <hi>Easter,</hi> that is, the next Full Moon after the Vernal <hi>Equinox,</hi> which is one of the two Seasons of the Year, at which we have proved the Attraction of the Air, or les<lb rend="hidden" type="hyphenInWord"/>sening
+<pb n="20" facs="19" rend="none"/>of its Pressure, to be greater than at any other Time whatsoever.</p>
+            <p>But we are besides this to consider, That the static Chair, and nice Observation taught <hi>Sanctorius,</hi>
+               <note place="bottom" n="(a)">
+                  <hi>Medicin Static.</hi> Sect. 1. Aph. 65.</note> That <hi>Men do increase a Pound or two in their Weight every Month, which Overplus is discharged at the Month's End, by a Crisis of copious, or thick turbid Urine.</hi>
+            </p>
+            <p>It is not therefore at all strange, that we shou'd once a Month be liable to the Re<lb rend="hidden" type="hyphenInWord"/>turns of such Distempers as depend upon a Fullness of the Vessels, that these should take Place at those Times especially, when the am<lb rend="hidden" type="hyphenInWord"/>bient Air is least able to repress the Tur<lb rend="hidden" type="hyphenInWord"/>gency; and that tho' New and Full Moon are both of equal Force, yet that sometimes one, and sometimes the other only should In<lb rend="hidden" type="hyphenInWord"/>fluence the Periods, according as this or that happens to fall in with the inward Reple<lb rend="hidden" type="hyphenInWord"/>tion.</p>
+            <p>The Afflux of Humours to Ulcers is some<lb rend="hidden" type="hyphenInWord"/>times manifestly altered by this Power;
+<note place="bottom" n="(b)">
+                  <hi>De Experiment. circq Sanguin.</hi> p. m. 341.</note> 
+               <hi>Baglivi</hi> was acquainted with a learned young Man at <hi>Rome,</hi> who labour'd under a <hi>Fistula</hi> in the <hi>Abdomen,</hi> penetrating to the <hi>Colon,</hi> which discharged so plentifully in the Increase, and so sparingly in the Decrease of the Moon, that he could make a very true Judgment of the Pe<lb rend="hidden" type="hyphenInWord"/>riods and Quadratures of that Planet, from the different Quantity of the <hi>Matter</hi> that came from him.</p>
+            <p>
+               <hi>Nephritic</hi> Paroxysms have frequently been ob<lb rend="hidden" type="hyphenInWord"/>served to obey the Lunar Attraction: <hi>Tulpius</hi>
+               <note place="bottom" n="(c)">
+                  <hi>Observat.</hi> Lib. 2. c. 43. <hi>vid. etiam Observ.</hi> 52.</note>
+               <pb n="21" facs="20" rend="none"/>relates the Case of Mr. <hi>Ainsworth,</hi> an <hi>English</hi> Minister at <hi>Amsterdam,</hi> who had a Fit of the Gravel and Suppression of Urine every Full Moon, of which he found no Relief till the Moon decreased, unless by Bleeding at the Arm. After his Death two large Stones were taken out of his Bladder, and the <hi>Pelvis</hi> of the left Kidney was enlarged to that Degree by the Quantity of Urine so often stopp'd there, as to contain almost as much as the Bladder itself.</p>
+            <p>I was present, not long since, at the Dis<lb rend="hidden" type="hyphenInWord"/>section of a Child about five or six Years old, who died of the frequent Returns of <hi>Nephri<lb rend="hidden" type="hyphenInWord"/>tic</hi> Fits, attended with Vomitings and a <hi>Di<lb rend="hidden" type="hyphenInWord"/>arrhaea.</hi> The Kidneys and Ureters were quite stuffed with a slimy calculous Matter, and it was very instructive to see the different De<lb rend="hidden" type="hyphenInWord"/>grees of Concretion in the several Parts of it, from a clear limpid Water, to a hard friable Substance. Dr. <hi>Groenvelt,</hi> who had tended the Boy in his Illness, observed him to be seized with his Pains at every Full Moon for several Months together, which generally ended with the voiding of a Stone.</p>
+            <p>What Influence the Moon has in <hi>Asthmas,
+<note place="bottom" n="(a)">
+                     <hi>Asthma &amp; Tuss.</hi> § 22.</note> Van Helmont</hi> takes Notice, <hi>Exacerbatur Pa<lb rend="hidden" type="hyphenInWord"/>roxysmus</hi> (says he) <hi>Lunae Stationibus, &amp; aevi tem<lb rend="hidden" type="hyphenInWord"/>pestatibus quas ideo praesentit &amp; praesagit.</hi>
+               <note place="bottom" n="(b)">
+                  <hi>Treatise of the Asthma,</hi> p. 17.</note> And Sir <hi>John Floyer,</hi> who has given us a more particular History of this Disease than any Au<lb rend="hidden" type="hyphenInWord"/>thor, observes, that <hi>The Fits usually return once in a Fortnight, and frequently happen near the Change of the Moon.</hi>
+            </p>
+            <pb n="22" facs="21" rend="none"/>
+            <p>'Tis a more uncommon Effect of this at<lb rend="hidden" type="hyphenInWord"/>tractive Power that is related by the learned <hi>Kerckringius.</hi>
+               <note place="bottom" n="(a)">
+                  <hi>Observat. Anatomic.</hi> 92.</note> He knew a young Gentle<lb rend="hidden" type="hyphenInWord"/>woman, whose Beauty depended upon the Lu<lb rend="hidden" type="hyphenInWord"/>nar Force, insomuch that at Full Moon she was Plump and very Handsome, but in the Decrease of the Planet so wan and ill-favoured, that she was asham'd to go abroad 'till the Return of the New Moon gave <hi>Fullness</hi> to her Face, and <hi>Attraction</hi> to her Charms.</p>
+            <p>Tho' this is indeed no more than an Influ<lb rend="hidden" type="hyphenInWord"/>ence of the same Kind, with that the Moon has always been observed to have upon Shell-Fish, and some other living Creatures. For as the old <hi>Latin</hi> Poet <hi>Lucilius</hi> says,
+<note place="bottom" n="(b)">
+                  <hi>Apud</hi> A. Gellium, lib. 20. c. 8.</note>
+               <q>
+                  <l>Luna alit Ostrea &amp; implet Echinos, Muribu' Fibras</l>
+                  <l>Et Pecui addit—</l>
+               </q>
+            </p>
+            <p>And after him <hi>Manilius</hi>
+               <note place="bottom" n="(c)">
+                  <hi>Astronomic.</hi> lib. 2.</note>
+               <q>
+                  <l>Sic submersa Fretris Concharum &amp; Carcere Clausa,</l>
+                  <l>Ad Lunae motum variant animalia Corpus.</l>
+               </q>
+            </p>
+            <p>It is very well worth the Pains to enquire what Share such an Alteration in the Weight and Pressure of the Atmosphere may have in the <hi>Crises</hi> or Changes of acute Diseases. The Antients made great Account of <hi>critical</hi> Days, and regulated their Practice according to the Expectation they had from them; This Part of Physick is grown now into Disuse, quite
+<pb n="23" facs="22" rend="none"/>slighted, and even ridiculed; and that I sup<lb rend="hidden" type="hyphenInWord"/>pose chiefly for these two Reasons. In the first Place, because the earliest Observations of this Kind, which were drawn into Rules, being made in <hi>Eastern</hi> Countries, when these came to be applied to the Distempers of the <hi>Northern</hi> Re<lb rend="hidden" type="hyphenInWord"/>gions, without Allowance given for the Difference of the Climate, they were oftentimes found not to answer. And secondly, Fevers of old were treated with few or no Medicines, the Motions of Nature were carefully watched, and no Violence offer'd to interrupt her Work. The Histories therefore of <hi>Crises,</hi> though of great Use, and Certainty under such Management as this, were at length unavoidably set aside and lost; when acute Cases came to be cured, according to this or that Hypothesis, not only by Evacuations, but hot or cold Alteratives too; there being no longer any Room for those Laws of Practice, which supposed a regular and uniform Progress of the Distemper.</p>
+            <p>Wherefore, in order to understand a little both what might induce the first Masters of our Pro<lb rend="hidden" type="hyphenInWord"/>fession to so nice and strict an Observance in this Point; and what Grounds there may be now, for a more due Regard to their Pre<lb rend="hidden" type="hyphenInWord"/>cepts, even upon the Score of the Lunar At<lb rend="hidden" type="hyphenInWord"/>traction only, I propose the following Re<lb rend="hidden" type="hyphenInWord"/>marks.</p>
+            <p n="1">1. All Epidemick Diseases, do in their regu<lb rend="hidden" type="hyphenInWord"/>lar Course require a stated Time, in which they come to their Height, decline, and leave the Body free.</p>
+            <p>This is so constant and certain, that when a Fever of any <hi>Constitution</hi> which is <hi>continual</hi> in one Subject, happens from some other Cause,
+<pb n="24" facs="23" rend="none"/>in another to be <hi>intermitting,</hi> the Paroxisms do always return so often as all together to make up just as many Days of Illness as he suffers, whose Distemper goes on from Beginning to End, with<lb rend="hidden" type="hyphenInWord"/>out any Abatement.</p>
+            <p>Dr. <hi>Sydenham,</hi> a sworn Enemy to all Theories, learn'd thus much from downright Observa<lb rend="hidden" type="hyphenInWord"/>tion; and gives this Reason why autumnal Quartans holds six Months, because by Compu<lb rend="hidden" type="hyphenInWord"/>tation the Fits of so long a Time amount to 336 Hours, or 14 Days, the Period of a continual Fever of the same Season.
+<note place="bottom" n="(a)">
+                  <hi>De Febr. Intermit.</hi> Ann. 1661. pag. <hi>m.</hi> 65.</note>
+            </p>
+            <p>So <hi>Galen</hi> takes Notice, that when an exquisite Tertain is terminated in seven Paroxisms, a true Continual, at the same Time, has its Crisis in seven Days; that is, the Fever lasts as long in one as in the other, in as much (says he) as <hi>a Fit in an Intermitting Fever, answers to a Day in a Continual.</hi>
+               <note place="bottom" n="(b)">
+                  <hi>Comment. in Aphor.</hi> 59. lib. 4. <hi>&amp; de Crisib.</hi> lib. 2. c. 6.</note> Now this so comes to pass, because,</p>
+            <p n="2">2. In these Cases there is always a Fermenta<lb rend="hidden" type="hyphenInWord"/>tion in the Blood, which goes not off till the active Particles are thrown out by those Organs of Secretion, which, according to the Laws of Motion, are most fitted to separate 'em. And,</p>
+            <p n="3">3. As different Liquors put upon a Ferment, are depurated in different Times, so the Arte<lb rend="hidden" type="hyphenInWord"/>rial Fluid takes up a determined Period, of which it is discharged of an induced Effer<lb rend="hidden" type="hyphenInWord"/>vescence.</p>
+            <p n="4">4. The Symptoms, during this Ebullition, do not proceed all along in the same Tenour; but on some Days particularly, they give such
+<pb n="25" facs="24" rend="none"/>evident Marks of their good or bad Qua<lb rend="hidden" type="hyphenInWord"/>lity, that the Nature of the ensuing <hi>Solution</hi> may very well be guess'd at, and foretold by 'em.</p>
+            <p>Things being thus, Those Days on which the Disease was so evidently terminated one Way or other, might very justly be call'd the Days of <hi>Crisis;</hi> and those upon which the Ten<lb rend="hidden" type="hyphenInWord"/>dency of Illness was discovered by most visi<lb rend="hidden" type="hyphenInWord"/>ble Tokens, the <hi>Indices</hi> of the <hi>critical Days.</hi>
+            </p>
+            <p>And thus far the Foundation was good: but when a false Theory happen'd unluckily to be joined to true Observations, this did a little puzzle the Cause. <hi>Hippocrates,</hi> it is plain, knew not to what to ascribe that re<lb rend="hidden" type="hyphenInWord"/>markable Regularity with which he saw the Periods of Fevers were ended on the <hi>Seventh, Fourteenth, One and Twentieth</hi> Day, <hi>&amp;c. Py<lb rend="hidden" type="hyphenInWord"/>thagoras</hi> his Philosophy was in those Ages very Famous, of which <hi>Harmony</hi> and the <hi>Mysteries of Numbers</hi> made a considerable Part, <hi>Odd</hi> were more powerful than <hi>Even,</hi> and <hi>Seven</hi> was the most perfect of all. Our great Physician espoused these Notions,
+<note place="bottom" n="(a)">
+                  <hi>Epidem.</hi> lib. 1. Sect. 3.</note> and confined the Stages of acute Distempers to a <hi>Septenary</hi> Pro<lb rend="hidden" type="hyphenInWord"/>gression
+<note place="bottom" n="(b)">
+                  <gap rend="content:〈 in non-Latin alphabet 〉">
+                     <desc>foreign</desc>
+                  </gap>. <hi>De Septimestri Parta.</hi>
+               </note>, upon which this Inconvenience fol<lb rend="hidden" type="hyphenInWord"/>low'd, that when a Crisis fell out a Day sooner or later than this Computation required, his Measures were quite broken; and that this
+<pb n="26" facs="25" rend="none"/>must necessarily oftentimes happen, will appear by and by.</p>
+            <p>Upon this Score <hi>Asclepiades</hi> rejected this whole Doctrine as vain,
+<note place="bottom" n="(a)">
+                  <hi>Vid. Celsum.</hi> lib. 3. c. 4.</note> and <hi>Celsus</hi> finding it to be too nice and scrupulous, observes that the <hi>Pythagorean Numbers led the Ancients into the Error.</hi>
+               <note place="bottom" n="(b)">Ibid.</note>
+            </p>
+            <p>
+               <hi>Galen</hi> being aware of this, succeeded much better in his reasoning upon the Matter, and very happily imputed the critical Changes not to the Power of Numbers, but to the Influ<lb rend="hidden" type="hyphenInWord"/>ence of the Moon; which he observes, <hi>has a mighty Action upon our Earth, exceeding the other Planets, not in Energy, but in Nearness</hi>
+               <note place="bottom" n="(c)">
+                  <hi>De Diebus Decretor</hi> lib. 3.</note> So that according to him, the Septenary Periods in Diseases are owing to the <hi>Quarterly Lunar Phases, which are the Times of the greatest Force, and which return in about seven Days.</hi>
+               <note place="bottom" n="(d)">Ibid.</note>
+            </p>
+            <p>The Result of the whole Affair, in short is this: A <hi>Crisis</hi> is no more than the Expulsion of the morbific Matter out of the Body, thro' some or other of the Secretory Organs; in or<lb rend="hidden" type="hyphenInWord"/>der to which, it is necessary that this should be prepar'd and comminuted to such a Degree, as is required to make it pass into the Ori<lb rend="hidden" type="hyphenInWord"/>fices of the respective Glands; and therefore <hi>as</hi> the most <hi>perfect Crisis</hi> is by <hi>Sweat,</hi> (both by Reason that the Subcutaneous Glands do naturally discharge more than all the other put together, and also that their Ducts being the
+<pb n="27" facs="26" rend="none"/>smallest of any, whatsoever comes this Way is certainly very well divided and broken) <hi>so</hi> the most <hi>imperfect</hi> is an <hi>Haemorrhage;</hi> because This is an Argument that what offends is not fit to be cast off in any Part, and consequently breaks the Vessels by the Effervescence of the Blood. An <hi>Abscess</hi> in those Organs which se<lb rend="hidden" type="hyphenInWord"/>parate thick slimy Juices, is of a middle Na<lb rend="hidden" type="hyphenInWord"/>ture betwixt these two.</p>
+            <p>Now it is very plain, That if the Time, in which either the Peccant Humour is prepar'd for Secretion, or the Fermentation of the Blood is come to its Height, falls in with those Changes in the Atmosphere which diminish its Pres<lb rend="hidden" type="hyphenInWord"/>sure; the <hi>Crisis</hi> will then be more compleat and large. And also, that this Work may be forwarded or delay'd a Day upon the Account of such an Alteration in the Air; the Disten<lb rend="hidden" type="hyphenInWord"/>tion of the Vessels upon which it depends, being hereby made more easy, and a weak Ha<lb rend="hidden" type="hyphenInWord"/>bit of Body in some Cases standing in need of this outward Assistance. Thus a Fever which requires about a Week to its Period, may some<lb rend="hidden" type="hyphenInWord"/>times, as <hi>Hippocrates</hi> observed, have a good Crisis on the sixth, and sometimes not 'till the eighth Day.</p>
+            <p>In Order therefore to make true Observa<lb rend="hidden" type="hyphenInWord"/>tions of this Kind, the Time of Invasion is to be considered, The genuine Course of the Distemper must first be watched, which is not to be interrupted by any violent Methods: The Strength of Nature in the Patient is to be considered, and by what Secretions the Cri<lb rend="hidden" type="hyphenInWord"/>sis is most likely to be performed; and it will then be found, that not only the <hi>New</hi> and <hi>Full</hi> Moons, but even the <hi>Southings,</hi> whe<lb rend="hidden" type="hyphenInWord"/>ther
+<pb n="28" facs="27" rend="none"/>visible or latent, of the Planet, are here of considerable Moment.</p>
+            <p>For Confirmation of which, we need only to reflect on what Mr. <hi>Paschal</hi> has remark'd, <hi>concerning the Motions of Diseases and Births and Deaths</hi>
+               <note place="bottom" n="(a)">
+                  <hi>Philos. Transact.</hi> No. 202.</note>. Dividing the <gap rend="content:〈 in non-Latin alphabet 〉">
+                  <desc>foreign</desc>
+               </gap> into Four Senaries of Hours; the first consists of three Hours before the Southing of the Moon, and three after; the second of the six Hours following, and the third and fourth of the re<lb rend="hidden" type="hyphenInWord"/>maining Quarters of the natural Day: He takes Notice that none are born, or die a natural Death in the first and third Senaries, which he calls first and second Tides, but all either in the second or fourth Senaries, which he calls first and second Ebbs. In like manner, that in Agues, the Tumult of the Fits gene<lb rend="hidden" type="hyphenInWord"/>rally lasts all the Tiding-Time, and then goes off in kindly Sweats in the Ebbs. From whence he very rationally concludes, that Motion, Vi<lb rend="hidden" type="hyphenInWord"/>gour, Action, Strength, <hi>&amp;c.</hi> appear most, and do best in the <hi>Tiding Senaries;</hi> and that Rest, Relaxation, Decay, Dissolution, <hi>&amp;c.</hi> belong to the <hi>Ebbing Senaries.</hi>
+            </p>
+         </div>
+         <div type="corollary">
+            <pb n="29" facs="28" rend="none"/>
+            <head>A <hi>COROLLARY.</hi>
+            </head>
+            <p>IT having been explained in the Beginning of this Discourse, how those Influences of the Heavens, which favour the <hi>Returns of Dis<lb rend="hidden" type="hyphenInWord"/>eases,</hi> may likewise raise <hi>Winds</hi> at the same Times; and that we feel the different Effects of <hi>These</hi> according as other Causes do concur to the Motion of the Air; it will not be amiss to shew, in one Instance or two, how much Natural History confirms this Reason<lb rend="hidden" type="hyphenInWord"/>ing.</p>
+            <p>There happened on the 26th of <hi>Novem<lb rend="hidden" type="hyphenInWord"/>ber,</hi> 1703, a little before Midnight, a most terrible <hi>Storm</hi> of <hi>Wind,</hi> the Fury of it is still fresh in every one's Mind, which lasted above six Hours.</p>
+            <p>It is not to the present Purpose to relate its History and Causes; What we observe is, That the Moon was at that Time <hi>in Peri<lb rend="hidden" type="hyphenInWord"/>gaeo,</hi> and just upon the Change to <hi>New.</hi> Up<lb rend="hidden" type="hyphenInWord"/>on both which Accounts its Action in raising the Atmosphere must be great; And hence indeed the <hi>Tides</hi> which followed were also very great, and the <hi>Mercury</hi> in the <hi>Barometer,</hi> at least, in most Places, fell very low.</p>
+            <p>This Influence was, without all doubt, assist<lb rend="hidden" type="hyphenInWord"/>ed by some such other Causes of <hi>Winds,</hi> as
+<pb n="30" facs="29" rend="none"/>we have mentioned; these we can't know, but may however take Notice how much the ma<lb rend="hidden" type="hyphenInWord"/>nifest State of the Air contributed to this Ca<lb rend="hidden" type="hyphenInWord"/>lamity.</p>
+            <p>After a greater Quantity of Rains than or<lb rend="hidden" type="hyphenInWord"/>dinary had fallen in the Summer and Au<lb rend="hidden" type="hyphenInWord"/>tumn, in those Places where the Storm was felt, the Winter came on much warmer than usual; so that the Liquor in a Thermometer, of which the 84th Degree notes Frost, never fell below the 100th
+<note place="bottom" n="(a)">
+                  <hi>Vid.</hi> Philos. Transact. No. 289.</note>.</p>
+            <p>Hence we may very well believe, that the Atmosphere was at that Time fill'd with Atoms of <hi>Salts</hi> and <hi>Sulphur,</hi> out of the Vapours rais'd by the Heat from the moist Earth, which being variously combined and agitated, gave that deadly Force to the Motion of the Air.</p>
+            <p>A Proof of this we have not only from the frequent <hi>Flashes</hi> of <hi>Lightning,</hi> observed a little before the Storm, but also from what the Country People took Notice of the next Day, <hi>viz.</hi> that the Grass and Twiggs of the Trees, in Fields remote from the Sea, tasted very salt, so that the Cattle wou'd not feed on them.</p>
+            <p>Our Histories mention another Storm, which if not equal to this last in Violence, is how<lb rend="hidden" type="hyphenInWord"/>ever thought the greatest that had then ever been known and memorable from the Time at which it happened, <hi>viz.</hi> on the 3d of <hi>Sep<lb rend="hidden" type="hyphenInWord"/>tember,</hi> 1658, the Day on which the Usurper <hi>Oliver Cromwell</hi> died.</p>
+            <p>No <hi>Ephemerides</hi> that I know of relate the
+<pb n="31" facs="30" rend="none"/>Condition of the Air that Year, but it is suf<lb rend="hidden" type="hyphenInWord"/>ficient to remark, That whatever other Causes concurr'd, their Force was accompanied with a <hi>Full Moon,</hi> just before the Time of the <hi>Au<lb rend="hidden" type="hyphenInWord"/>tumnal Equinox.</hi>
+            </p>
+            <p>Upon the same Score it comes to pass, That in those Countries which are subject to frequent <hi>Inundations,</hi> these Calamities are ob<lb rend="hidden" type="hyphenInWord"/>served to happen at the Time of the <hi>Moon</hi>'s greatest Influence, so that the learned <hi>Baccius</hi>
+               <note place="bottom" n="(a)">
+                  <hi>Del</hi> Tevere, lib. 3. p. 228.</note> has rightly enough laid the Cause of such Mischiefs upon immoderate <hi>Tides of the Ocean,</hi> being unhappily accompanied with the <hi>attrac<lb rend="hidden" type="hyphenInWord"/>tive Force</hi> of some or other <hi>Stars.</hi>
+            </p>
+            <p>Dr. <hi>Childrey,</hi> in his <hi>Britannia Baconica</hi>
+               <note place="bottom" n="(b)">Pag. 97.</note>, has from several Instances shewn the <hi>Lunar</hi> Action in Damages of this Kind.</p>
+            <p>Such and the like <hi>Natural</hi> Causes have <hi>Storms</hi> and <hi>Tempests;</hi> for as to the Question of Di<lb rend="hidden" type="hyphenInWord"/>vine Power, whether or no Calamities of this Kind do not sometimes, by the Anger of Heaven, happen out of the Course of Na<lb rend="hidden" type="hyphenInWord"/>ture, it is not my Business to dispute, nor would I by any means endeavour to absolve Mens Minds from the Bands of Religion. For although we must allow all the Parts of the Machine of this World to be framed and moved by established Laws, and that the same Disposition of its Fabrick, which is most bene<lb rend="hidden" type="hyphenInWord"/>ficial to the whole, must of Necessity, in some few Places now and then occasion Hurts and Mischiefs; it is however most highly reason<lb rend="hidden" type="hyphenInWord"/>able, that we should yield to the Supreme
+<pb n="32" facs="31" rend="none"/>Creator an absolute Power over all his Works; Concluding withal, that it was perhaps agree<lb rend="hidden" type="hyphenInWord"/>able to Divine Wisdom, to order the Make of the World after such a Manner, as might sometimes bring Mischiefs and Calamities upon Mankind, whom it was necessary by the Frights of <hi>Storms, Thunder</hi> and <hi>Lightning</hi> to keep in a continual Sense of their Duty.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
