@@ -21,39 +21,71 @@
  It is *not* a good example to work from. 
 -->
 <config>
-  <luceneMatchVersion>LUCENE_36</luceneMatchVersion>
-  <!--  The DirectoryFactory to use for indexes.
-        solr.StandardDirectoryFactory, the default, is filesystem based.
-        solr.RAMDirectoryFactory is memory based, not persistent, and doesn't work with replication. -->
-  <directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
+	<luceneMatchVersion>LUCENE_36</luceneMatchVersion>
+	<!--  The DirectoryFactory to use for indexes.
+		solr.StandardDirectoryFactory, the default, is filesystem based.
+		solr.RAMDirectoryFactory is memory based, not persistent, and doesn't work with replication. -->
+	<directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
 
 
-  <updateHandler class="solr.DirectUpdateHandler2" />
+	<updateHandler class="solr.DirectUpdateHandler2" />
 
-  <requestDispatcher handleSelect="true" >
-    <requestParsers enableRemoteStreaming="false" multipartUploadLimitInKB="2048" />
-  </requestDispatcher>
-  
-  <requestHandler name="standard" class="solr.StandardRequestHandler" default="true" />
-  <requestHandler name="/update" class="solr.XmlUpdateRequestHandler" />
-  <requestHandler name="/admin/" class="org.apache.solr.handler.admin.AdminHandlers" />
+	<requestDispatcher handleSelect="true" >
+	<requestParsers enableRemoteStreaming="false" multipartUploadLimitInKB="2048" />
+	</requestDispatcher>
+
+	<requestHandler name="standard" class="solr.StandardRequestHandler" default="true" />
+	<requestHandler name="/update" class="solr.XmlUpdateRequestHandler" />
+	<requestHandler name="/admin/" class="org.apache.solr.handler.admin.AdminHandlers" />
       
-	<requestHandler name="/dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
+	<requestHandler name="/dataimportsingle" class="org.apache.solr.handler.dataimport.DataImportHandler">
 		<lst name="defaults">
-			<str name="config">data-config.xml</str>
-		</lst>
-	</requestHandler>
-	
-	<requestHandler name="/pushcarpool" class="org.apache.solr.handler.dataimport.DataImportHandler">
-		<lst name="defaults">
-			<str name="config">pushcarpool-data-config.xml</str>
+			<str name="config">data-config-single.xml</str>
 		</lst>
 	</requestHandler>
 
-  <!-- config for the admin interface --> 
-  <admin>
-    <defaultQuery>*:*</defaultQuery>
-  </admin>
+	<requestHandler name="/dataimportmulti" class="org.apache.solr.handler.dataimport.DataImportHandler">
+		<lst name="defaults">
+			<str name="config">data-config-multi.xml</str>
+		</lst>
+	</requestHandler>
+
+	<requestHandler name="/select" class="solr.SearchHandler" default="true">
+		<str name="spellcheck.dictionary">default</str>
+		<arr name="last-components">
+			<str>spellcheck</str>
+		</arr>
+    </requestHandler>
+	
+	<searchComponent name="spellcheck" class="solr.SpellCheckComponent">
+		<str name="queryAnalyzerFieldType">SpellText</str>
+		<lst name="spellchecker">
+		  <str name="name">default</str> 
+		  <str name="classname">solr.IndexBasedSpellChecker</str>
+		  <str name="field">ProductSpellText</str>
+		  <!--<str name="field">ProductDescription</str>-->
+		  <str name="spellcheckIndexDir">spellchecker</str>
+		  <int name="suggestionCount">3</int>
+		  <!--<float name="accuracy">0.5</float>-->
+		  <!-- uncomment this to require terms to occur in 1% of the documents in order to be included in the dictionary
+			<float name="thresholdTokenFrequency">.01</float>
+		  -->
+		</lst>
+	</searchComponent>
+	
+	<requestHandler name="/admin/ping" class="solr.PingRequestHandler">
+		<lst name="invariants">
+		  <str name="q">solrpingquery</str>
+		</lst>
+		<lst name="defaults">
+		  <str name="echoParams">all</str>
+		</lst>
+	</requestHandler>
+  
+	<!-- config for the admin interface --> 
+	<admin>
+		<defaultQuery>*:*</defaultQuery>
+	</admin>
 
 </config>
 

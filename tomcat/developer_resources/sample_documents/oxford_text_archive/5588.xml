@@ -1,0 +1,130 @@
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The case of the barbers of London</title>
+            <author>Barbers' Company (London, England)</author>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>
+               <name>Oxford Text Archive</name>
+               <address>
+                  <addrLine>Oxford University Computing Services</addrLine>
+                  <addrLine>13 Banbury Road</addrLine>
+                  <addrLine>Oxford</addrLine>
+                  <addrLine>OX2 6NN</addrLine>
+               </address>
+               <email>ota@oucs.ox.ac.uk</email>
+            </distributor>
+            <idno type="ota">http://ota.ox.ac.uk/id/5588</idno>
+            <idno type="TCP">K029870.000</idno>
+            <idno type="BIBNO">CW3307998945</idno>
+            <idno type="ECMS">0135203300</idno>
+            <idno type="isbn10">1106025873</idno>
+            <idno type="isbn13">9781106025876</idno>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+	  Distributed by the University of Oxford under a Creative Commons
+	  Attribution-ShareAlike 3.0 Unported License
+	</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The case of the barbers of London</title>
+                  <author>Barbers' Company (London, England)</author>
+               </titleStmt>
+               <extent>3, [1] p. ; 2⁰.</extent>
+               <publicationStmt>
+                  <pubPlace>[London :</pubPlace>
+                  <publisher>s.n.,</publisher>
+                  <date>1745?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A protest of the Barbers' Company against the proposed dissolution of their union with that of the surgeons.</note>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>English Short Title Catalog, ESTCT20153.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2p5.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl n="4">
+            <p>This electronic text file was keyed from page images and partially proofread for accuracy. Character capture and encoding have been done following the guidelines of the ECCO Text Creation Partnership, which correspond roughly to the recommendations found in Level 4 of the TEI in Libraries Guidelines. Digital page images are linked to the text file.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#http://authorities.loc.gov/">
+               <term>Barbers -- Labor unions -- England</term>
+               <term>Surgeons -- England</term>
+               <term>London (England) -- History</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <pb facs="1" rend="none"/>
+         <head>THE CASE OF THE BARBERS of <hi>LONDON.</hi>
+         </head>
+         <p>
+            <seg rend="decorInit">T</seg>HE <hi>Barbers</hi> of <hi>London</hi> were a <hi>Fraternity</hi> before the Time of <hi>Edward the Second,</hi> and by Letters-Patent of <hi>Edward the Fourth</hi> were made a <hi>Body Corporate,</hi> and invested with several Powers and Pri<lb rend="hidden" type="hyphenInWord"/>vileges. In the 32d Year of <hi>Henry the Eighth,</hi> the <hi>publick</hi> Policy thought proper to <hi>unite</hi> them with another Company (not then <hi>incorporated</hi>) called the <hi>Surgeons</hi> of <hi>London,</hi> in order, (as is most probable) to <hi>transfer</hi> those Powers and Privileges to the <hi>latter,</hi> without directly appearing to <hi>wrest</hi> them from the <hi>former</hi> to whom they had been <hi>originally</hi> granted.</p>
+         <p>This <hi>Coalition</hi> of the two Companies having now subsisted above <hi>Two Hundred Years,</hi> the <hi>Barbers</hi> are surpris'd to find an <hi>Attempt</hi> made by the <hi>Surgeons</hi> to <hi>dissolve</hi> it, by Authority of <hi>Parliament,</hi> without their Participation or Consent.</p>
+         <p>The <hi>principal Reasons</hi> assigned by the <hi>Surgeons,</hi> in their printed Case, to induce the Legislature to this <hi>extraordinary</hi> Act of Power, are,</p>
+         <p>
+            <milestone n="First," unit="unspec"/> That the <hi>Barbers,</hi> in the Time of <hi>Henry the Eighth,</hi> were <hi>all Sur<lb rend="hidden" type="hyphenInWord"/>geons,</hi> and that the Parliament, by <hi>uniting</hi> them with others of <hi>supe<lb rend="hidden" type="hyphenInWord"/>rior</hi> Abilities, intended <hi>their</hi> Improvement in <hi>that</hi> Profession; but that they having, long since, <hi>ceased</hi> to intermeddle with any Branch of <hi>Surgery,</hi> this <hi>Intent</hi> of the Act is frustrated, and the laudable <hi>Purpose</hi> of the <hi>Union</hi> at an end.</p>
+         <p>
+            <milestone n="Secondly," unit="unspec"/> That by this <hi>Alteration</hi> of the Circumstances of things, the Junction of the two Companies (how advantageous soever in <hi>former</hi> Times) is <hi>now</hi> become highly <hi>inconvenient.</hi>
+         </p>
+         <p>
+            <milestone n="Thirdly," unit="unspec"/> That the <hi>Surgeons,</hi> if <hi>distinctly</hi> incorporated, would be encouraged to <hi>meet</hi> and <hi>communicate</hi> to one another their Experiments and Successes.</p>
+         <p>
+            <milestone n="And Fourthly," unit="unspec"/> That the like Separation has taken place at <hi>Paris, Edinburgh,</hi> and <hi>Glascow.</hi>
+         </p>
+         <p>BUT the <hi>first</hi> of these <hi>Reasons</hi> is grounded on a <hi>Mistake</hi> in point of <hi>Fact;</hi> for tho' it be <hi>true</hi> that the <hi>Barbers</hi> were <hi>all originally Surgeons,</hi> and incorporated <hi>as such,</hi> yet long <hi>before</hi> the Union in question, <hi>most</hi> of them had <hi>quitted</hi> the <hi>actual Exercise</hi> of that Profession, and the <hi>Right</hi> itself of exercising it <hi>in virtue</hi> of their Charter, had been
+<note place="bottom" n="*">3 <hi>H.</hi> 8. <hi>Ch.</hi> 11. No Person within the City of <hi>London,</hi> nor within seven Miles, shall occupy as a <hi>Surgeon,</hi> except he be first examined, approved, and admitted by the Bishop of <hi>London</hi> or Dean of St. <hi>Paul</hi>'s.</note> 
+            <hi>taken away</hi>
+            <pb n="2" facs="2" rend="none"/>by Parliament: And tho' in the <hi>Preamble</hi> of the uniting Act, <hi>both</hi> Companies are stiled <hi>Surgeons,</hi> yet from the
+<note place="bottom" n="‡">32 <hi>H.</hi> 8. <hi>Ch.</hi> 42. <hi>Sect.</hi> 3. No Person within the City of <hi>London,</hi> Suburbs of the same, and one Mile Compass of the said City, using any Barbery or Shaving, shall occupy any Sur<lb rend="hidden" type="hyphenInWord"/>gery, Letting of Blood, or any other Thing belonging to Surgery, Drawing of Teeth only except.</note> 
+            <hi>Enacting</hi> Part (which ex<lb rend="hidden" type="hyphenInWord"/>presly <hi>restrains</hi> the <hi>Barbers</hi> from occupying any part of <hi>Surgery,</hi> except <hi>Tooth-drawing</hi>) it is evident the <hi>Legislature</hi> did not consider them as <hi>real</hi> Surgeons, nor could intend their <hi>Improvement</hi> in a Science they were <hi>forbid</hi> to <hi>practise,</hi> so that the Circumstances of Things are <hi>not</hi> altered from what they <hi>then</hi> were, or from what they manifestly were <hi>designed</hi> to be; and therefore the <hi>Barbers</hi> having no Relation to the <hi>Surgeons,</hi> or their Art (as it was <hi>then</hi> deemed no <hi>Objection</hi> to their <hi>Union</hi>) <gap resp="#uom" extent="1 letter" rend="content:•">
+               <desc>illegible</desc>
+            </gap>annot <hi>now,</hi> with any Propriety, be insisted on as a <hi>Reason</hi> for their <hi>Separation.</hi>
+         </p>
+         <p>With regard to the <hi>Inconveniencies</hi> complained of, as the Charge is <hi>general,</hi> this <hi>general</hi> Answer only can be given, That the <hi>Barbers</hi> have always, with the greatest Deference, <hi>submitted</hi> to the <hi>Surgeons</hi> in all Matters <hi>peculiar</hi> to them, and chearfully contributed, out of their <hi>com<lb rend="hidden" type="hyphenInWord"/>mon</hi> Stock, towards every Expence which <hi>they</hi> have declared necessary for the Honour or Advancement of <hi>their</hi> Profession. And since <hi>none</hi> of these Inconveniencies have been of Consequence enough to deserve being <hi>particularly</hi> pointed out, we may venture to pronounce them <hi>in<lb rend="hidden" type="hyphenInWord"/>considerable,</hi> and unworthy the Attention and Redress of <hi>Parliament;</hi> and the rather, as <hi>all</hi> of them put together, have not prevented the <hi>Surgeons</hi> of <hi>London</hi> from carrying the Improvement of their Art, both in Speculation and Practice, to a greater Height than has been done in any other Place or Nation.</p>
+         <p>That the frequent Meetings of ingenious Men, and their free Com<lb rend="hidden" type="hyphenInWord"/>munications on the Subject of their Profession, may tend <hi>to the Benefit of Mankind in general, and to the Honour of their Country in particular,</hi> is not denied: But surely the Constitution of the <hi>united</hi> Company is no obstacle to these laudable Purposes. The <hi>Barbers</hi> have for many Years, at their Monthly Courts, submitted to <hi>withdraw</hi> at a stated Hour, and <hi>resigned</hi> the Parlour to the Surgeons: And if this <hi>Condescen<lb rend="hidden" type="hyphenInWord"/>sion</hi> is not supposed to afford them <hi>sufficient</hi> Time for Conversation on these <hi>particular</hi> Days, nothing <hi>hinders</hi> them from holding <hi>seperate</hi> Assemblies at the Hall almost <hi>every</hi> other Day in the Year.</p>
+         <p>As to what is said to have been done at <hi>Paris, Edinburgh,</hi> and <hi>Glascow,</hi> no <hi>particular</hi> answer can be given, unless it appeared by what <hi>Means,</hi> for what <hi>Reasons,</hi> and upon what <hi>Terms</hi> the <hi>Separations</hi> in those Places were brought about. In <hi>London</hi> there are but two Instances of Separations of Companies, <hi>viz.</hi> that of the <hi>Feltmakers</hi> from the <hi>Haberdashers</hi> in 1604, and that of the <hi>Apothecaries</hi> from the <hi>Grocers</hi> in 1617; but both these were effected by <hi>mutual</hi> Consent, without the Intervention of <hi>Parliament;</hi> and it may be proper to observe, that the Feltmakers miscarried in a former Application for an exclusive Charter in 1576 for <hi>want</hi> of the Haberdashers Consent.</p>
+         <p>Upon the whole, therefore, the <hi>Barbers</hi> humbly hope the forgoing Reasons will be deemed <hi>insufficient</hi> to induce the <hi>Legislature</hi> to destroy an <hi>Union</hi> they <hi>themselves</hi> thought proper to <hi>form,</hi> an Union which two hundred Years Existence has rendred <hi>venerable,</hi> and which, by
+<pb n="3" facs="3" rend="none"/>the <hi>Improvements</hi> above-mentioned, appears to have answered all the <hi>Purposes</hi> for which it was established.</p>
+         <p>But if for <hi>other</hi> Reasons (which the <hi>Surgeons</hi> say <hi>may</hi> be given) the Parliament shall be inclined to favour them in <hi>this part</hi> of their Re<lb rend="hidden" type="hyphenInWord"/>quest; the <hi>Barbers,</hi> from the scrupulous Regard and Tenderness which that <hi>August Assembly</hi> has always shewn for <hi>private Property,</hi> cannot but hope they shall be <hi>continued</hi> in the Enjoyment of <hi>all</hi> their present Possessions, without any <hi>Division</hi> whatsoever, and that, for the follow<lb rend="hidden" type="hyphenInWord"/>ing Reasons:</p>
+         <p>
+            <milestone n="First," unit="unspec"/> Because most of the <hi>united</hi> Company's Lands and Tenements, (particularly the Site of their <hi>Hall, Parlour, &amp;c.</hi>) originally belonged to <hi>them,</hi> and by the uniting Act
+<note place="bottom" n="*">32 <hi>H.</hi> 8. <hi>Ch.</hi> 42. The united Company shall have, possess, and enjoy, to them and their Successors for ever, all such Lands and Tenements, and other Hereditaments whatsoever, which the said Company or Commonalty of <hi>Barbers</hi> have and enjoy, <hi>to the Use</hi> of the said Mystery and Commonalty of <hi>Barbers</hi> of London.</note> seem with great Justice to have been intended to remain to their <hi>sole</hi> and <hi>separate</hi> Use, tho' in fact the <hi>Sur<lb rend="hidden" type="hyphenInWord"/>geons</hi> have hitherto been <hi>indulged</hi> in the <hi>equal</hi> Enjoyment of them with the <hi>Barbers.</hi>
+         </p>
+         <p>
+            <milestone n="Secondly," unit="unspec"/> Because the <hi>Surgeons Share</hi> of what may have been acquired <hi>since</hi> the Union, will scarce be an <hi>adequate</hi> Recompence to the <hi>Barbers</hi> for the above <hi>Indulgence,</hi> much less for the unmerited <hi>Loss</hi> of a Bro<lb rend="hidden" type="hyphenInWord"/>therhood now so <hi>honourable</hi> and <hi>advantageous</hi> to them.</p>
+         <p>
+            <milestone n="Thirdly," unit="unspec"/> Because the Expences of the <hi>Barbers</hi> when <hi>distinctly</hi> incor<lb rend="hidden" type="hyphenInWord"/>porated, can fall but very little, if any thing, short of those of the <hi>united</hi> Company, so that a Reduction of <hi>Income</hi> must subject them to very great Difficulties, which (considering that <hi>they</hi> neither desire, nor have given the <hi>Surgeons</hi> just Cause to desire a Separation) would be extremely hard and unreasonable.</p>
+         <p>
+            <milestone n="Lastly," unit="unspec"/> Because the present <hi>flourishing</hi> Condition of the <hi>Surgeons,</hi> (the only <hi>real</hi> Alteration in the Circumstances of Things) will sufficient<lb rend="hidden" type="hyphenInWord"/>ly enable them to support the Dignity of their <hi>new</hi> and <hi>favourite</hi> In<lb rend="hidden" type="hyphenInWord"/>stitution with becoming <hi>Splendor,</hi> without distressing their <hi>less happy</hi> Brethren the <hi>Barbers.</hi>
+         </p>
+      </body>
+      <back>
+         <div type="halftitle">
+            <pb facs="4" rend="none"/>
+            <p>THE CASE OF THE BARBERS of <hi>London.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
