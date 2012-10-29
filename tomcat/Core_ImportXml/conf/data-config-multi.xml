@@ -1,0 +1,67 @@
+<dataConfig>
+        <dataSource type="FileDataSource" />
+        <document>
+                <entity name="books"
+                        pk="CarpoolIdEnrypted"
+                        url="../../developer_resources/sample_documents/oxford_text_archive/*.xml"
+                        processor="XPathEntityProcessor"
+                        forEach="/TEI"
+                        transformer="DateFormatTransformer">
+
+						<field column="BikeCount" xpath="/data/carpool/BikeCount" />
+                        <field column="CarpoolIdEnrypted" xpath="/data/carpool/CarpoolIdEnrypted" />
+                        <field column="CarPoolTitle" xpath="/data/carpool/CarPoolTitle" />
+                        <field column="CarLabel" xpath="/data/carpool/CarLabel" />
+                        <field column="CarPoolCategory" xpath="/data/carpool/CarPoolCategory" />
+                        <field column="City" xpath="/data/carpool/City" />
+                        <field column="Country" xpath="/data/carpool/" />
+                        <field column="DepartureDateTime12HR" xpath="/data/carpool/DepartureDateTime12HR" />
+                        <field column="DepartureLocationName" xpath="/data/carpool/DepartureLocationName" />
+                        <field column="DestinationLocationName" xpath="/data/carpool/DestinationLocationName" />
+                        <field column="DepartureLatLong" xpath="/data/carpool/DepartureLatLong" />
+                        <field column="DestinationLatLong" xpath="/data/carpool/DestinationLatLong" />
+                        <field column="DriverStatus" xpath="/data/carpool/DriverStatus" />
+                        <field column="DistanceUnit" xpath="/data/carpool/DistanceUnit" />
+                        <field column="GasCost" xpath="/data/carpool/GasCost" />
+                        <field column="LuggageCapacity" xpath="/data/carpool/LuggageCapacity" />
+                        <field column="Notes" xpath="/data/carpool/Notes" />
+                        <field column="Passenger1" xpath="/data/carpool/Passenger1" />
+                        <field column="Passenger2" xpath="/data/carpool/Passenger2" />
+                        <field column="Passenger3" xpath="/data/carpool/Passenger3" />
+                        <field column="Passenger4" xpath="/data/carpool/Passenger4" />
+                        <field column="Passenger5" xpath="/data/carpool/Passenger5" />
+                        <field column="Passenger6" xpath="/data/carpool/Passenger6" />
+                        <field column="Passenger7" xpath="/data/carpool/Passenger7" />
+                        <field column="Passenger8" xpath="/data/carpool/Passenger8" />
+                        <field column="Passenger9" xpath="/data/carpool/Passenger9" />
+                        <field column="Passenger10" xpath="/data/carpool/Passenger10" />
+                        <field column="Passenger11" xpath="/data/carpool/Passenger11" />
+                        <field column="Passenger12" xpath="/data/carpool/Passenger12" />
+                        <field column="Passenger1Name" xpath="/data/carpool/Passenger1Name" />
+                        <field column="Passenger2Name" xpath="/data/carpool/Passenger2Name" />
+                        <field column="Passenger3Name" xpath="/data/carpool/Passenger3Name" />
+                        <field column="Passenger4Name" xpath="/data/carpool/Passenger4Name" />
+                        <field column="Passenger5Name" xpath="/data/carpool/Passenger5Name" />
+                        <field column="Passenger6Name" xpath="/data/carpool/Passenger6Name" />
+                        <field column="Passenger7Name" xpath="/data/carpool/Passenger7Name" />
+                        <field column="Passenger8Name" xpath="/data/carpool/Passenger8Name" />
+                        <field column="Passenger9Name" xpath="/data/carpool/Passenger9Name" />
+                        <field column="Passenger10Name" xpath="/data/carpool/Passenger10Name" />
+                        <field column="Passenger11Name" xpath="/data/carpool/Passenger11Name" />
+                        <field column="Passenger12Name" xpath="/data/carpool/Passenger12Name" />
+                        <field column="OtherCost" xpath="/data/carpool/OtherCost" />
+                        <field column="OwnerId" xpath="/data/carpool/OwnerId" />
+                        <field column="OwnerName" xpath="/data/carpool/OwnerName" />
+                        <field column="Roundtrip" xpath="/data/carpool/Roundtrip" />
+                        <field column="SeatCount" xpath="/data/carpool/SeatCount" />
+                        <field column="RentalCost" xpath="/data/carpool/RentalCost" />
+                        <field column="Region" xpath="/data/carpool/Region" />
+                        <field column="UserTimeZone" xpath="/data/carpool/UserTimeZone" />
+                        <field column="Timezonelong" xpath="/data/carpool/Timezonelong" />
+                        <field column="Timezoneoffset" xpath="/data/carpool/Timezoneoffset" />
+                        <field column="Totalcost" xpath="/data/carpool/Totalcost" />
+                        <field column="CostPerPassenger" xpath="/data/carpool/CostPerPassenger" />
+                    
+                </entity>
+        </document>
+</dataConfig>

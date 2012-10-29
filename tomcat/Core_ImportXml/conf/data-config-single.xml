@@ -1,0 +1,21 @@
+<dataConfig>
+        <dataSource type="FileDataSource" />
+        <document>
+                <entity name="ScaleModels"
+                        pk="ProductCode"
+                        url="C:/Users/Radek/Documents/GitHub/SolrStarterKit/tomcat/Core_ImportXml/index_me_single/products.xml"
+                        processor="XPathEntityProcessor"
+                        forEach="/products/product">
+						                        
+						<field column="ProductCode" xpath="/products/product/ProductCode" />
+						<field column="ProductName" xpath="/products/product/ProductName" />
+						<field column="ProductLine" xpath="/products/product/ProductLine" />
+						<field column="ProductScale" xpath="/products/product/ProductScale" />
+						<field column="ProductVendor" xpath="/products/product/ProductVendor" />
+						<field column="ProductDescription" xpath="/products/product/ProductDescription" />
+						<field column="QuantityInStock" xpath="/products/product/QuantityInStock" />
+						<field column="BuyPrice" xpath="/products/product/BuyPrice" />
+						<field column="MSRP" xpath="/products/product/MSRP" />
+                </entity>
+        </document>
+</dataConfig>

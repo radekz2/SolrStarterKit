@@ -1,0 +1,41 @@
+<dataConfig>
+        <dataSource type="FileDataSource" />
+		<script>
+				<![CDATA[
+
+                function ExtractYear(row)
+                {
+					<!-- row is of type Java Map http://docs.oracle.com/javase/6/docs/api/java/util/Map.html -->
+					
+					//var description = row.get("ProductName").toString();
+					//var yearExtract = description.substring(0, 4);
+					
+					var descriptionPieces = row.get("ProductName").toString().split(" ");					
+					var yearExtract = descriptionPieces[0].substring(1);
+					
+					row.put('ModelYear', yearExtract);
+					return row;
+				}
+				]]>
+		</script>
+        <document>
+                <entity name="ScaleModels"
+                        pk="ProductCode"
+                        url="C:/Users/Radek/Documents/GitHub/SolrStarterKit/tomcat/Core_ImportXml/index_me_single/products.xml"
+                        processor="XPathEntityProcessor"
+                        forEach="/products/product"
+						transformer="script:ExtractYear"
+						>
+						                        
+						<field column="ProductCode" xpath="/products/product/ProductCode" />
+						<field column="ProductName" xpath="/products/product/ProductName" />
+						<field column="ProductLine" xpath="/products/product/ProductLine" />
+						<field column="ProductScale" xpath="/products/product/ProductScale" />
+						<field column="ProductVendor" xpath="/products/product/ProductVendor" />
+						<field column="ProductDescription" xpath="/products/product/ProductDescription" />
+						<field column="QuantityInStock" xpath="/products/product/QuantityInStock" />
+						<field column="BuyPrice" xpath="/products/product/BuyPrice" />
+						<field column="MSRP" xpath="/products/product/MSRP" />
+                </entity>
+        </document>
+</dataConfig>

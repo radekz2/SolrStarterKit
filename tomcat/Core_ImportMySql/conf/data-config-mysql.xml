@@ -1,0 +1,19 @@
+<dataConfig>
+		<!-- JDBC DRIVER AT http://www.mysql.com/downloads/connector/j/ -->
+		<dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/cars" user="root" password=""/>
+        <document>
+                <entity name="ScaleModels"
+                        query="SELECT * FROM products">
+						                        
+						<field column="ProductCode" name="productCode" />
+						<field column="ProductName" xpath="productName" />
+						<field column="ProductLine" xpath="productLine" />
+						<field column="ProductScale" xpath="productScale" />
+						<field column="ProductVendor" xpath="productVendor" />
+						<field column="ProductDescription" xpath="productDescription" />
+						<field column="QuantityInStock" xpath="quantityInStock" />
+						<field column="BuyPrice" xpath="buyPrice" />
+						<field column="MSRP" xpath="MSRP" />
+                </entity>
+        </document>
+</dataConfig>

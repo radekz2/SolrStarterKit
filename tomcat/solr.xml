@@ -30,5 +30,7 @@
   -->
   <cores adminPath="/admin/cores">
     <core name="Core_ImportXml" instanceDir="Core_ImportXml" />
+	<core name="Core_ImportMysql" instanceDir="Core_ImportMysql" />
+	<core name="Core_ScriptTransformer" instanceDir="Core_ScriptTransformer" />
   </cores>
 </solr>
