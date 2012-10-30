@@ -12,6 +12,7 @@
 					
 					var descriptionPieces = row.get("ProductName").toString().split(" ");					
 					var yearExtract = descriptionPieces[0].substring(1);
+					var yearExtract = descriptionPieces[0];
 					
 					row.put('ModelYear', yearExtract);
 					return row;
