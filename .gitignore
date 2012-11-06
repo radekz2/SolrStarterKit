@@ -162,3 +162,8 @@ pip-log.txt
 # Mac crap
 .DS_Store
 /tomcat/developer_resources/sample_documents/php-scripts/nbproject/private/
+
+#############
+## Solr
+#############
+*/data/*
