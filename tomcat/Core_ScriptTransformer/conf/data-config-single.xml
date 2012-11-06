@@ -2,21 +2,23 @@
         <dataSource type="FileDataSource" />
 		<script>
 				<![CDATA[
-
-                function ExtractYear(row)
-                {
-					<!-- row is of type Java Map http://docs.oracle.com/javase/6/docs/api/java/util/Map.html -->
+				
+				function MakeKeywords(row)
+				{
+					<!-- variable row is of type Java Map http://docs.oracle.com/javase/6/docs/api/java/util/Map.html -->
+				
+					var pieces = row.get("ProductDescription").toString().split(" ");
 					
-					//var description = row.get("ProductName").toString();
-					//var yearExtract = description.substring(0, 4);
+					var arr = new java.util.ArrayList();
+                    for (var i=0; i<pieces.length; i++) 
+					{
+                       arr.add(pieces[i]);
+                    }
 					
-					var descriptionPieces = row.get("ProductName").toString().split(" ");					
-					var yearExtract = descriptionPieces[0].substring(1);
-					var yearExtract = descriptionPieces[0];
-					
-					row.put('ModelYear', yearExtract);
+					row.put('Keywords', arr);
 					return row;
 				}
+				
 				]]>
 		</script>
         <document>
@@ -25,7 +27,7 @@
                         url="C:/Users/Radek/Documents/GitHub/SolrStarterKit/tomcat/Core_ImportXml/index_me_single/products.xml"
                         processor="XPathEntityProcessor"
                         forEach="/products/product"
-						transformer="script:ExtractYear"
+						transformer="script:ExtractYear,script:MakeKeywords"
 						>
 						                        
 						<field column="ProductCode" xpath="/products/product/ProductCode" />
