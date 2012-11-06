@@ -6,14 +6,14 @@
                         query="SELECT * FROM products">
 						                        
 						<field column="ProductCode" name="productCode" />
-						<field column="ProductName" xpath="productName" />
-						<field column="ProductLine" xpath="productLine" />
-						<field column="ProductScale" xpath="productScale" />
-						<field column="ProductVendor" xpath="productVendor" />
-						<field column="ProductDescription" xpath="productDescription" />
-						<field column="QuantityInStock" xpath="quantityInStock" />
-						<field column="BuyPrice" xpath="buyPrice" />
-						<field column="MSRP" xpath="MSRP" />
+						<field column="ProductName" name="productName" />
+						<field column="ProductLine" name="productLine" />
+						<field column="ProductScale" name="productScale" />
+						<field column="ProductVendor" name="productVendor" />
+						<field column="ProductDescription" name="productDescription" />
+						<field column="QuantityInStock" name="quantityInStock" />
+						<field column="BuyPrice" name="buyPrice" />
+						<field column="MSRP" name="MSRP" />
                 </entity>
         </document>
 </dataConfig>
