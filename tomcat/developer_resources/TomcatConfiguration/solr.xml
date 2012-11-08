@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Context docBase="path/to/solr/starter/kit/apache-solr-3.6.1.war" debug="0" crossContext="true">
-  <Environment name="solr/home" type="java.lang.String" value="path/to/solr/starter/kit/tomcat" override="true"/>
-</Context>
